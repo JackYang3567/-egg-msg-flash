@@ -1,3 +1,32 @@
+
+# nrm
+
+一、nrm是什么？
+这是官方的原话：
+
+　　开发的npm registry 管理工具 nrm, 能够查看和切换当前使用的registry。
+
+顾名思义，就是说nrm是一个管理npm的工具。
+
+二、nrm的安装
+$ npm install -g nrm
+
+三、nrm命令
+$ nrm ls　　// 查看所有的支持源（有*号的表示当前所使用的源,以下[name]表示源的名称）
+
+$ nrm use [name]　　// 将npm下载源切换成指定的源
+
+$ nrm add        // 使用 add 添加仓库
+
+$ nrm del        // 使用 del 可以删除仓库
+
+$ nrm help　　// 查看nrm帮助
+
+$ nrm home [name]　　// 跳转到指定源的官网
+# ===================================================
+
+
+
 # egg-msg-flash
 
 [![NPM version][npm-image]][npm-url]
@@ -20,6 +49,8 @@
 [download-image]: https://img.shields.io/npm/dm/egg-msg-flash.svg?style=flat-square
 [download-url]: https://npmjs.org/package/egg-msg-flash
 
+git remote add origin https://github.com/JackYang3567/-egg-msg-flash.git
+git push -u origin master
 <!--
 Description here.
 -->
